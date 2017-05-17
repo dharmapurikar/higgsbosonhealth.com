@@ -67,3 +67,147 @@
   font-weight: 900;
   font-style: italic;
 }
+
+//minion
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-Bold.otf"));
+  font-style: normal;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-BoldCn.otf"));
+  font-style: normal;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinionPro-BoldCnIt.otf"));
+  font-style: italic;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-BoldIt.otf"));
+  font-style: italic;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-It.otf"));
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-Medium.otf"));
+  font-style: normal;
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-MediumIt.otf"));
+  font-style: italic;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-Regular.otf"));
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-Semibold.otf"));
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro-SemiboldIt.otf"));
+  font-style: italic;
+  font-weight: 500;
+}
+
+//calluna
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansBlack.otf"));
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansBlackItalic.otf"));
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansBold.otf"));
+  font-style: normal;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansBoldItalic.otf"));
+  font-style: italic;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansItalic.otf"));
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansLight.otf"));
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansLightItalic.otf"));
+  font-style: italic;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansRegular.otf"));
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansSemiBold.otf"));
+  font-style: normal;
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansSemiBoldItalic.otf"));
+  font-style: italic;
+  font-weight: 500;
+}

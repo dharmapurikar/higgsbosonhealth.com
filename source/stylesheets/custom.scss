@@ -3,39 +3,70 @@ $bluishFontColor: #3467B0;
 $backgroundGrayColor: #F5F9FC;
 $borderColor: #BCCEE4;
 $fontDefault: MuseoSans, sans-serif;
-$containerGrayBackground: #F5F5F5;
+$containerGrayBackground: #E8F4F6;
 $brandColor: #2B68B2;
+$callunaFont: CallunaSans;
+$minionFont: MinionPro;
 
 
 .gray-text-color {
   color: #4A4A4A;
 }
 
-html {
-  font-family: $fontDefault;
-}
-
 //fonts
 .font-13 {
   font-size: 13px;
   line-height: 15px;
-  font-family: $fontDefault;
 }
 
 .font-14 {
   font-size: 14px;
   line-height: 16px;
-  font-family: $fontDefault;
 }
 
 .font-16 {
   font-size: 16px;
   line-height: 18px;
-  font-family: $fontDefault;
 }
 
 .museosans {
-  font-family: $fontDefault;
+  font-family: $fontDefault !important;
+}
+
+.minion-pro {
+  font-family: $minionFont !important;
+}
+.minion-pro-regular {
+  font-weight: 300;
+}
+.minion-pro-medium {
+  font-weight: 500;
+}
+.minion-pro-semibold {
+  font-weight: 700;
+}
+.minion-pro-bold {
+  font-weight: 900;
+}
+
+
+.calluna-sans {
+  font-family: $callunaFont !important;
+}
+.calluna-sans-light {
+  font-weight: 100;
+}
+.calluna-sans-regular {
+  font-weight: 300;
+}
+.calluna-sans-semibold {
+  font-weight: 500;
+}
+.calluna-sans-bold {
+  font-weight: 700;
+}
+.calluna-sans-black {
+  font-weight: 900;
 }
 
 
@@ -50,7 +81,7 @@ html {
 .navbar {
   margin: auto;
   padding: 0 0 !important;
-  min-height: 90px;
+  height: 90px;
   box-shadow: 1px 0px 4px 1px $brandColor;
   background-color: #FFFFFF;
 }
@@ -58,19 +89,20 @@ html {
 .navbar-nav > li > a {
   padding-top: 35px;
   padding-bottom: 35px;
-  font-family: $fontDefault;
+  font-family: $callunaFont;
 }
 
 .nav-bar-component {
   font-size: 1.8rem;
-  font-weight: 100;
 }
 
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus {
+.navbar-default .navbar-nav > .active > a:focus,
+.navbar-default .navbar-nav > li > a:hover,
+.navbar-default .navbar-nav > li > a:focus{
   background-color: #FFFFFF;
-  font-weight: 500;
+  font-weight: 700;
   text-decoration: none;
   text-decoration-color: $brandColor;
   position: relative;
@@ -94,9 +126,14 @@ html {
 
 .container {
   width: 100%;
-  margin-top: 5%;
+  margin-top: 70px;
   padding-left: 0px;
   padding-right: 0px;
+}
+
+.description-sup-content {
+  font-family: $fontDefault;
+  font-size: 1.8rem;
 }
 
 .background-main-container {
@@ -104,66 +141,98 @@ html {
 }
 
 .first-section {
-  background: url(../images/HiggsBoson_background.png);
-  background-repeat: round;
-  background-position: inherit;
+  background: url(../images/Hero_image_3x.png);
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100%;
 }
 .description-header {
     font-size: 3rem;
-  font-weight: 500;
+
+    @media screen and (max-width: 1220px) and (min-width: 1000px) {
+      font-size: 2.5rem;
+    }
 }
 
 .background-description {
-  padding: 3em 3em;
-  width: 60%;
-  font-size: 2.5rem;
-  line-height: 40px;
-  font-weight: 100;
+  padding: 100px;
+  width: 66%;
+  font-size: 3rem;
+  line-height: 4rem;
+
+  @media screen and (max-width: 1440px) and (min-width: 1281px) {
+    padding: 100px;
+  }
+  @media screen and (max-width: 1280px) and (min-width: 1071px) {
+    padding: 75px;
+  }
 }
 
 .left-description {
   padding: 2% 3%;
-  font-weight: 300;
   font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
 }
 
 .right-description {
   padding: 2% 3%;
-  font-weight: 300;
   font-size: 1.8rem;
+  line-height: 3rem;
+  letter-spacing: 0.1rem;
 }
 
 .sub-description-container {
-  background-color: $backgroundGrayColor;
-  border-bottom: 1px solid $borderColor;
-  color: $bluishFontColor;
+  background-color: #F5F9FC;
+  border-bottom: 1px solid #BCCEE4;
+  background: #3DC0C6;
+  color: #FFFFFF;
 }
 
 .section-header {
-  color: $bluishFontColor;
-  padding-top: 3%;
-  padding-bottom: 3%;
+  color: #3467B0;
+  padding-top: 7rem;
+  padding-bottom: 2rem;
   font-size: 2.5rem;
-  font-weight: 300;
+  font-family: MinionPro;
+  font-weight: 900;
+  margin: auto;
+  border-bottom: 0.2rem dashed #3DC0C6;
+}
+
+.how-it-works-header {
+  width: 15%;
+}
+
+.mms-advantages-header {
+  width: 22%;
+}
+
+.our-story-header {
+  width: 15%;
+}
+
+.our-team-header {
+  width: 15%;
 }
 
 .diagram-container {
-  //width: 100%;
-  //margin: auto;
+  margin-top: 4rem;
 }
 
 .section-sub-header {
   color: $bluishFontColor;
-  padding-bottom: 3%;
-  font-size: 2rem;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  font-size: 2.5rem;
+  font-family: MinionPro;
 }
 
 .mms-advantages-main-container {
   background-color: $containerGrayBackground;
-  margin-top: 2%;
-  padding: 1% 1% 3% 1%;
+  margin-top: 6rem;
+  padding: 0rem 1rem 3rem 1rem;
   font-family: $fontDefault;
-  font-weight: 300;
   text-transform: capitalize;
 }
 
@@ -179,9 +248,7 @@ html {
 .point-label {
   width: 100%;
   padding-top: 2%;
-  font-size: 1.5rem;
-  font-family: $fontDefault;
-  font-weight: 300;
+  font-size: 2rem;
 }
 
 .care-team-points-container {
@@ -193,7 +260,6 @@ html {
   width: 100%;
   background-color: $containerGrayBackground;
   padding: 1% 1% 3% 2%;
-  font-weight: 300;
   font-size: 1.5rem;
   font-family: $fontDefault;
 }
@@ -203,19 +269,10 @@ html {
 }
 
 .our-story-image {
-  width: 20%;
   margin: 0 auto;
+  padding-top: 4rem;
 }
 
-.our-story-description {
-  margin: 0 auto;
-  width: 50%;
-  padding: 2%;
-  font-size: 1.5rem;
-  font-family: $fontDefault;
-  font-weight: 300;
-  line-height: 2.5rem;
-}
 
 .footer-container {
   padding: 2% 2%;
@@ -235,13 +292,26 @@ html {
   padding-left: 0px;
 }
 
-.second-section-sub-header {
-  padding-top: 3%;
-  color: $bluishFontColor;
-  width: 100%;
-  float: left;
+.our-story-description {
+  margin: 0 auto;
+  width: 65%;
+  padding: 2%;
   font-size: 2rem;
-  padding-bottom: 3%;
+  font-weight: 300;
+  line-height: 2.5rem;
+}
+
+
+.second-section-sub-header {
+  color: $bluishFontColor;
+  padding-bottom: 3rem;
+  padding-top: 4rem;
+  font-size: 2.5rem;
+  font-family: MinionPro;
+}
+
+.team-member-container {
+  margin-top: 4rem;
 }
 
 .padding-top-10 {
@@ -251,6 +321,16 @@ html {
 .team-member-description {
   margin-top: 2%;
   font-size: 1.3rem;
+  width: 80%;
+  margin: auto;
+  padding-top: 1rem;
+}
+
+.mms-logo-container {
+  margin: auto;
+  position: absolute;
+  left: 44%;
+  bottom: 20%;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -293,7 +373,6 @@ html {
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0);
   border-bottom: 1px solid $borderColor;
   font-family: $fontDefault;
-  font-weight: 100;
 }
 
 .input-container:focus {
