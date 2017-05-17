@@ -12769,7 +12769,6 @@ jQuery.easing.jswing=jQuery.easing.swing;jQuery.extend(jQuery.easing,{def:"easeO
 
 $(document).ready(function() {
     $(window).scroll(function() {
-        console.log($(".navbar").offset().top)
         if ($(".navbar").offset().top > 50) {
             $(".navbar-fixed-top").addClass("top-nav-collapse");
         } else {
@@ -12784,7 +12783,7 @@ $(document).ready(function() {
                 $("html, body").animate({ scrollTop: $(document).height()-$(window).height() });
             } else {
                 $('html, body').stop().animate({
-                    scrollTop: $($anchor.attr('href')).offset().top
+                    scrollTop: $($anchor.attr('href')).offset().top - 40
                 }, 1500, 'easeInOutExpo');
             }
 
