@@ -6001,13 +6001,13 @@ button.close {
 .navbar {
   margin: auto;
   padding: 0 0 !important;
-  height: 90px;
+  height: 110px;
   -webkit-box-shadow: 1px 0px 4px 1px #2B68B2;
           box-shadow: 1px 0px 4px 1px #2B68B2;
   background-color: #FFFFFF; }
 
 .navbar-nav > li > a {
-  padding-top: 35px;
+  padding-top: 45px;
   padding-bottom: 35px;
   font-family: CallunaSans; }
 
@@ -6041,7 +6041,7 @@ button.close {
 
 .container {
   width: 100%;
-  margin-top: 70px;
+  margin-top: 90px;
   padding-left: 0px;
   padding-right: 0px; }
 
