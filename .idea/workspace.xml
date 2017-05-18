@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93373bf4-65ee-40f1-80a2-df8ae2efc541" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/source/images/Hero_image_2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/Hero_image_3x.png" afterPath="$PROJECT_DIR$/source/images/Hero_image_3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/diagram_flow_2x.png" afterPath="$PROJECT_DIR$/source/images/diagram_flow_2x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/images/diagram_flow_3x.png" afterPath="$PROJECT_DIR$/source/images/diagram_flow_3x.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/partials/_description.html.erb" afterPath="$PROJECT_DIR$/source/partials/_description.html.erb" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/stylesheets/custom.scss" afterPath="$PROJECT_DIR$/source/stylesheets/custom.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/source/partials/_footer.html.erb" afterPath="$PROJECT_DIR$/source/partials/_footer.html.erb" />
     </list>
     <ignored path="higgsbosonhealth.github.io.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -29,11 +23,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="true">
+      <file leaf-file-name="custom.scss" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/stylesheets/custom.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.43493152">
-              <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+            <state vertical-scroll-proportion="-7.0392156">
+              <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -49,11 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="false">
+      <file leaf-file-name="_footer.html.erb" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/partials/_footer.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+            <state vertical-scroll-proportion="0.14729951">
+              <caret line="6" column="169" selection-start-line="6" selection-start-column="169" selection-end-line="6" selection-end-column="169" />
               <folding />
             </state>
           </provider>
@@ -116,13 +110,13 @@
         <option value="$PROJECT_DIR$/source/layouts/layout.erb" />
         <option value="$PROJECT_DIR$/source/stylesheets/mms_fonts.scss" />
         <option value="$PROJECT_DIR$/source/partials/_how_it_works.html.erb" />
-        <option value="$PROJECT_DIR$/source/partials/_footer.html.erb" />
         <option value="$PROJECT_DIR$/source/partials/_our_teams.html.erb" />
         <option value="$PROJECT_DIR$/source/partials/_our_story.html.erb" />
         <option value="$PROJECT_DIR$/source/partials/_header.html.erb" />
         <option value="$PROJECT_DIR$/source/partials/_mms_advantages.html.erb" />
         <option value="$PROJECT_DIR$/source/partials/_description.html.erb" />
         <option value="$PROJECT_DIR$/source/stylesheets/custom.scss" />
+        <option value="$PROJECT_DIR$/source/partials/_footer.html.erb" />
       </list>
     </option>
   </component>
@@ -863,14 +857,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/partials/_footer.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/source/partials/_our_teams.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -913,8 +899,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylesheets/custom.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.43493152">
-          <caret line="115" column="11" selection-start-line="115" selection-start-column="11" selection-end-line="115" selection-end-column="11" />
+        <state vertical-scroll-proportion="-7.0392156">
+          <caret line="122" column="22" selection-start-line="122" selection-start-column="22" selection-end-line="122" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/partials/_footer.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.14729951">
+          <caret line="6" column="169" selection-start-line="6" selection-start-column="169" selection-end-line="6" selection-end-column="169" />
           <folding />
         </state>
       </provider>
