@@ -81,13 +81,13 @@ $minionFont: MinionPro;
 .navbar {
   margin: auto;
   padding: 0 0 !important;
-  height: 90px;
+  height: 110px;
   box-shadow: 1px 0px 4px 1px $brandColor;
   background-color: #FFFFFF;
 }
 
 .navbar-nav > li > a {
-  padding-top: 35px;
+  padding-top: 45px;
   padding-bottom: 35px;
   font-family: $callunaFont;
 }
@@ -126,7 +126,7 @@ $minionFont: MinionPro;
 
 .container {
   width: 100%;
-  margin-top: 70px;
+  margin-top: 90px;
   padding-left: 0px;
   padding-right: 0px;
 }
