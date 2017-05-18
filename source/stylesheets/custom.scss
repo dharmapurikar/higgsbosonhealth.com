@@ -190,17 +190,29 @@ $minionFont: MinionPro;
 }
 
 .left-description {
-  padding: 2% 3%;
+  margin: 2% 0%;
   font-size: 1.8rem;
   line-height: 3rem;
   letter-spacing: 0.1rem;
+  border-right: 1px solid;
+  padding-left: 5%;
 }
 
 .right-description {
-  padding: 2% 3%;
+  margin: 2% 0%;
   font-size: 1.8rem;
   line-height: 3rem;
   letter-spacing: 0.1rem;
+  padding: 0% 5%;
+}
+
+.dot {
+  background-color: #FFF;
+  padding: 0.5rem;
+  border-radius: 10px;
+  position: absolute;
+  top: 10%;
+  left: 6%;
 }
 
 .sub-description-container {
@@ -316,7 +328,7 @@ $minionFont: MinionPro;
 .our-story-description {
   margin: 0 auto;
   width: 65%;
-  padding: 2%;
+  padding: 2% 2% 5% 2%;
   font-size: 2rem;
   font-weight: 300;
   line-height: 2.5rem;
