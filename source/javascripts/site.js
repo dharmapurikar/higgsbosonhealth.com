@@ -2,6 +2,7 @@
 //= require jquery
 //= require bootstrap-sprockets
 //= require 'jquery.easing.min.js'
+//= require 'app'
 
 $(document).ready(function() {
     $(window).scroll(function() {
@@ -26,6 +27,5 @@ $(document).ready(function() {
             event.preventDefault();
         });
     });
-
+    mainPage();
 });
-
