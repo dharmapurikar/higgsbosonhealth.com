@@ -72,70 +72,70 @@
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-Bold.otf"));
+  src: url(font_path("minionPro/MinioPro_Bold.otf"));
+  font_style: normal;
+  font-weight: Bold;
+}
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro_BoldCn.otf"));
   font-style: normal;
   font-weight: Bold;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-BoldCn.otf"));
-  font-style: normal;
-  font-weight: Bold;
-}
-
-@font-face {
-  font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinionPro-BoldCnIt.otf"));
+  src: url(font_path("minionPro/MinionPro_BoldCnIt.otf"));
   font-style: italic;
   font-weight: Bold;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-BoldIt.otf"));
+  src: url(font_path("minionPro/MinioPro_BoldIt.otf"));
   font-style: italic;
   font-weight: Bold;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-It.otf"));
+  src: url(font_path("minionPro/MinioPro_It.otf"));
   font-style: italic;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-Medium.otf"));
+  src: url(font_path("minionPro/MinioPro_Medium.otf"));
   font-style: normal;
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-MediumIt.otf"));
+  src: url(font_path("minionPro/MinioPro_MediumIt.otf"));
   font-style: italic;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-Regular.otf"));
+  src: url(font_path("minionPro/MinioPro_Regular.otf"));
   font-style: normal;
   font-weight: normal;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-Semibold.otf"));
+  src: url(font_path("minionPro/MinioPro_Semibold.otf"));
   font-style: normal;
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'MinionPro';
-  src: url(font_path("minionPro/MinioPro-SemiboldIt.otf"));
+  src: url(font_path("minionPro/MinioPro_SemiboldIt.otf"));
   font-style: italic;
   font-weight: 500;
 }
@@ -210,4 +210,62 @@
   src: url(font_path("callunaSans/CallunaSansSemiBoldItalic.otf"));
   font-style: italic;
   font-weight: 500;
+}
+
+
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro_Bold.woff")) format("woff");
+  font-weight: bold;
+}
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro_Medium.woff")) format("woff");
+  font-weight: 300;
+}
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro_Reguler.woff")) format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro_BoldCn.woff")) format("woff");
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'MinionPro';
+  src: url(font_path("minionPro/MinioPro_Semibold.woff")) format("woff");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansBlack.woff")) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansBold.woff")) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansLight.woff")) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansReguler.woff")) format("woff");
+  font-style: normal;
+  font-weight: normal;
+}
+@font-face {
+  font-family: 'CallunaSans';
+  src: url(font_path("callunaSans/CallunaSansSemiBold.woff")) format("woff");
+  font-style: normal;
+  font-weight: normal;
 }
