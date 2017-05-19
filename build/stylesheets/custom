@@ -1,3 +1,15 @@
+html, body {
+  font-size: 11px; }
+
+@media screen and (min-width: 500px) and (max-width: 768px) {
+  html, body {
+    font-size: 7px; } }
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  html, body {
+    font-size: 9px; } }
+@media screen and (max-width: 500px) {
+  html, body {
+    font-size: 8px; } }
 .gray-text-color {
   color: #4A4A4A; }
 
@@ -102,9 +114,6 @@
 
 .description-sup-content {
   font-size: 1.8rem; }
-  @media screen and (max-width: 790px) and (min-width: 768px) {
-    .description-sup-content {
-      font-size: 1rem; } }
 
 .background-main-container {
   color: #3467B0; }
@@ -112,20 +121,14 @@
 .first-section {
   background: url(../images/Hero_image_3x.png);
   background-repeat: no-repeat;
-  background-position: center center;
-  background-size: 100%; }
+  background-size: cover;
+  background-position: right; }
 
 .description-header {
   font-size: 3rem; }
-  @media screen and (max-width: 1220px) and (min-width: 1000px) {
-    .description-header {
-      font-size: 2.5rem; } }
-  @media screen and (max-width: 790px) and (min-width: 768px) {
-    .description-header {
-      font-size: 1.5rem; } }
 
 .background-description {
-  padding: 100px;
+  padding: 50px 100px 50px 100px;
   width: 66%;
   font-size: 3rem;
   line-height: 4rem; }
@@ -140,14 +143,11 @@
     .background-description {
       padding: 93px;
       width: 60%;
-      padding-left: 60px;
-      font-size: 2rem; } }
+      padding-left: 60px; } }
   @media screen and (max-width: 790px) and (min-width: 768px) {
     .background-description {
       padding: 63px;
       width: 65%;
-      font-size: 1.5rem;
-      line-height: 2.5rem;
       padding-left: 50px; } }
 
 .left-description {
@@ -157,6 +157,9 @@
   letter-spacing: 0.1rem;
   border-right: 1px solid;
   padding-left: 5%; }
+  .left-description .description-list {
+    list-style: disc;
+    -webkit-padding-start: 15px; }
 
 .right-description {
   margin: 2% 0%;
@@ -164,6 +167,9 @@
   line-height: 3rem;
   letter-spacing: 0.1rem;
   padding: 0% 5%; }
+  .right-description .description-list {
+    list-style: disc;
+    -webkit-padding-start: 15px; }
 
 .dot {
   background-color: #FFF;
@@ -190,7 +196,7 @@
   border-bottom: 0.2rem dashed #3DC0C6; }
 
 .how-it-works-header {
-  width: 15%; }
+  width: 18%; }
 
 .mms-advantages-header {
   width: 22%; }
@@ -228,6 +234,9 @@
 .point-label {
   width: 100%;
   padding-top: 2%;
+  font-size: 1.5rem; }
+
+.team-name {
   font-size: 2rem; }
 
 .care-team-points-container {
@@ -348,3 +357,185 @@
 
 #success_message {
   display: none; }
+
+@media screen and (max-width: 767px) {
+  .background-description {
+    padding: 30px 20px 30px 35px;
+    width: 100%;
+    font-size: 3rem;
+    line-height: 4rem; }
+
+  .first-section {
+    background: url(../images/hero_image_phone_3x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right; }
+
+  .mms-advantages-header {
+    width: 50%; }
+
+  .how-it-works-header {
+    width: 35%; }
+
+  .our-story-header {
+    width: 26%; }
+
+  .our-team-header {
+    width: 26%; }
+
+  .team-member-description {
+    font-size: 1.8rem;
+    width: 90%; }
+
+  .point-label {
+    font-size: 2.5rem; }
+
+  .our-story-description {
+    width: 90%; }
+
+  .office-address-container {
+    font-size: 1.8rem; }
+
+  .second-section-sub-header {
+    line-height: 40px; }
+
+  .our-story-description {
+    padding: 7% 2% 10% 2%; } }
+.office-address-container {
+  font-size: 1.5rem; }
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .background-description {
+    padding: 60px 20px 60px 35px;
+    width: 66%;
+    font-size: 3rem;
+    line-height: 4rem; }
+
+  .first-section {
+    background: url(../images/hero_image_ipad_3x.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top right; }
+
+  .mms-advantages-header {
+    width: 24%; }
+
+  .how-it-works-header {
+    width: 18%; }
+
+  .our-story-header {
+    width: 20%; }
+
+  .our-team-header {
+    width: 20%; } }
+.carousel-container {
+  text-align: center; }
+  .carousel-container #mms-advantages-carousel, .carousel-container #mms-advantages-second-carousel, .carousel-container #how-it-works-carousel {
+    display: inline-block; }
+    .carousel-container #mms-advantages-carousel .carousel-indicators, .carousel-container #mms-advantages-second-carousel .carousel-indicators, .carousel-container #how-it-works-carousel .carousel-indicators {
+      width: auto;
+      left: 70%;
+      z-index: 0;
+      top: -30px; }
+      .carousel-container #mms-advantages-carousel .carousel-indicators li, .carousel-container #mms-advantages-second-carousel .carousel-indicators li, .carousel-container #how-it-works-carousel .carousel-indicators li {
+        border-color: black; }
+      .carousel-container #mms-advantages-carousel .carousel-indicators .active, .carousel-container #mms-advantages-second-carousel .carousel-indicators .active, .carousel-container #how-it-works-carousel .carousel-indicators .active {
+        position: relative;
+        top: -1px;
+        width: 10px;
+        height: 10px;
+        background-color: black; }
+    .carousel-container #mms-advantages-carousel .carousel-inner, .carousel-container #mms-advantages-second-carousel .carousel-inner, .carousel-container #how-it-works-carousel .carousel-inner {
+      display: inline-block;
+      width: auto; }
+      .carousel-container #mms-advantages-carousel .carousel-inner .last-image, .carousel-container #mms-advantages-second-carousel .carousel-inner .last-image, .carousel-container #how-it-works-carousel .carousel-inner .last-image {
+        padding-bottom: 8px; }
+      .carousel-container #mms-advantages-carousel .carousel-inner i, .carousel-container #mms-advantages-second-carousel .carousel-inner i, .carousel-container #how-it-works-carousel .carousel-inner i {
+        position: relative;
+        top: 10px;
+        padding: 0 15px; }
+      .carousel-container #mms-advantages-carousel .carousel-inner .item, .carousel-container #mms-advantages-second-carousel .carousel-inner .item, .carousel-container #how-it-works-carousel .carousel-inner .item {
+        min-width: 250px; }
+        @media only screen and (max-width: 400px) {
+          .carousel-container #mms-advantages-carousel .carousel-inner .item, .carousel-container #mms-advantages-second-carousel .carousel-inner .item, .carousel-container #how-it-works-carousel .carousel-inner .item {
+            min-width: 200px; } }
+      .carousel-container #mms-advantages-carousel .carousel-inner .icon-sub-header, .carousel-container #mms-advantages-second-carousel .carousel-inner .icon-sub-header, .carousel-container #how-it-works-carousel .carousel-inner .icon-sub-header {
+        font-weight: 300;
+        color: #4874A3;
+        font-size: 1.2rem;
+        margin-top: 5px; }
+    .carousel-container #mms-advantages-carousel .carousel-control, .carousel-container #mms-advantages-second-carousel .carousel-control, .carousel-container #how-it-works-carousel .carousel-control {
+      opacity: 1;
+      width: auto;
+      position: static; }
+    .carousel-container #mms-advantages-carousel .carousel-control.left, .carousel-container #mms-advantages-carousel .carousel-control.right, .carousel-container #mms-advantages-second-carousel .carousel-control.left, .carousel-container #mms-advantages-second-carousel .carousel-control.right, .carousel-container #how-it-works-carousel .carousel-control.left, .carousel-container #how-it-works-carousel .carousel-control.right {
+      background: none; }
+  .carousel-container i {
+    font-size: 3rem; }
+
+.carousel-text {
+  font-size: 2rem;
+  text-align: center;
+  font-family: CallunaSans !important; }
+
+.mms-advantages-carousel-body-container, .mms-advantages-second-carousel-body-container {
+  text-align: center;
+  margin-bottom: 25px;
+  padding: 15px; }
+  .mms-advantages-carousel-body-container .header, .mms-advantages-second-carousel-body-container .header {
+    font-size: 1.5rem;
+    color: #4874A3;
+    margin: 20px; }
+  .mms-advantages-carousel-body-container .item, .mms-advantages-second-carousel-body-container .item {
+    margin-top: 20px; }
+  .mms-advantages-carousel-body-container h4, .mms-advantages-second-carousel-body-container h4 {
+    font-weight: 300; }
+
+.display-none {
+  display: none; }
+
+.carousel-control {
+  position: absolute !important; }
+
+.carousel-control.right {
+  left: 113%;
+  top: 42%; }
+
+.carousel-control.left {
+  top: 42%;
+  left: -27%; }
+
+.carousel-container {
+  margin-top: 20px; }
+
+#mms-advantages-carousel .carousel-indicators {
+  left: 70%; }
+
+#mms-advantages-second-carousel .carousel-indicators {
+  left: 58% !important;
+  margin-top: -5px; }
+
+.separator {
+  display: block;
+  height: 1px;
+  border: 0;
+  border-top: 1px solid #2F6AAF;
+  margin: 1em 0;
+  padding: 0; }
+
+#how_it_works .carousel-container {
+  margin-top: 50px; }
+#how_it_works .carousel-indicators {
+  left: 60% !important; }
+#how_it_works .hide-how-it-works-carousel {
+  padding: 10px 50px; }
+
+.m-l-0 {
+  margin-left: 0; }
+
+.m-r-0 {
+  margin-right: 0; }
+
+.row {
+  margin-left: 0;
+  margin-right: 0; }
