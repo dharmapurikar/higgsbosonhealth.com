@@ -1,5 +1,6 @@
 html, body {
-  font-size: 11px; }
+  font-size: 11px;
+  font-family: MuseoSans, sans-serif !important; }
 
 @media screen and (min-width: 500px) and (max-width: 768px) {
   html, body {
@@ -29,7 +30,13 @@ html, body {
   font-family: MuseoSans, sans-serif !important; }
 
 .minion-pro {
-  font-family: MinionPro !important; }
+  font-family: MuseoSans, sans-serif !important; }
+
+.font-wt-100 {
+  font-weight: 100; }
+
+.minion-pro-regular {
+  font-weight: 300; }
 
 .minion-pro-regular {
   font-weight: 300; }
@@ -44,7 +51,7 @@ html, body {
   font-weight: 900; }
 
 .calluna-sans {
-  font-family: CallunaSans !important; }
+  font-family: MuseoSans, sans-serif !important; }
 
 .calluna-sans-light {
   font-weight: 100; }
@@ -77,7 +84,7 @@ html, body {
 .navbar-nav > li > a {
   padding-top: 45px;
   padding-bottom: 35px;
-  font-family: CallunaSans; }
+  font-family: MuseoSans, sans-serif; }
 
 .nav-bar-component {
   font-size: 1.8rem; }
@@ -128,7 +135,7 @@ html, body {
   font-size: 3rem; }
 
 .background-description {
-  padding: 50px 100px 50px 100px;
+  padding: 40px 100px 40px 100px;
   width: 66%;
   font-size: 3rem;
   line-height: 4rem; }
@@ -183,15 +190,16 @@ html, body {
   background-color: #F5F9FC;
   border-bottom: 1px solid #BCCEE4;
   background: #3DC0C6;
-  color: #FFFFFF; }
+  color: #FFFFFF;
+  font-weight: 300; }
 
 .section-header {
   color: #3467B0;
   padding-top: 7rem;
   padding-bottom: 2rem;
   font-size: 2.5rem;
-  font-family: MinionPro;
-  font-weight: 900;
+  font-family: MuseoSans, sans-serif;
+  font-weight: 700;
   margin: auto;
   border-bottom: 0.2rem dashed #3DC0C6; }
 
@@ -199,7 +207,7 @@ html, body {
   width: 18%; }
 
 .mms-advantages-header {
-  width: 22%; }
+  width: 25%; }
 
 .our-story-header {
   width: 15%; }
@@ -209,13 +217,34 @@ html, body {
 
 .diagram-container {
   margin-top: 4rem; }
+  .diagram-container .how-it-works-image {
+    width: 19.7%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-top; }
+    .diagram-container .how-it-works-image img {
+      height: 15em; }
+    .diagram-container .how-it-works-image .how-it-works-text {
+      font-size: 1.3rem;
+      padding: 15px 20px 15px 20px;
+      font-family: MuseoSans, sans-serif; }
+    .diagram-container .how-it-works-image .how-it-works-number {
+      margin-top: 15px;
+      font-size: 14px; }
+      .diagram-container .how-it-works-image .how-it-works-number span {
+        padding: 5px 10px;
+        border: 1px #3DC0C6 solid;
+        border-radius: 50px;
+        background: #3DC0C6;
+        color: white;
+        font-weight: 400; }
 
 .section-sub-header {
   color: #3467B0;
   padding-bottom: 3rem;
   padding-top: 4rem;
   font-size: 2.5rem;
-  font-family: MinionPro; }
+  font-family: MuseoSans, sans-serif; }
 
 .mms-advantages-main-container {
   background-color: #E8F4F6;
@@ -274,14 +303,14 @@ html, body {
   padding: 2% 2% 5% 2%;
   font-size: 2rem;
   font-weight: 300;
-  line-height: 2.5rem; }
+  line-height: 3rem; }
 
 .second-section-sub-header {
   color: #3467B0;
   padding-bottom: 3rem;
   padding-top: 4rem;
   font-size: 2.5rem;
-  font-family: MinionPro; }
+  font-family: MuseoSans, sans-serif; }
 
 .team-member-container {
   margin-top: 4rem; }
@@ -307,7 +336,7 @@ html, body {
 
 .mms-second-row, .our-team-second-row {
   width: 80%;
-  margin: auto; }
+  margin: auto !important; }
 
 .padding-top-3 {
   padding-top: 3%; }
@@ -363,10 +392,11 @@ html, body {
     padding: 30px 20px 30px 35px;
     width: 100%;
     font-size: 3rem;
-    line-height: 4rem; }
+    line-height: 4rem;
+    margin-bottom: 18em; }
 
   .first-section {
-    background: url(../images/hero_image_phone_3x.png);
+    background: url(../images/Hero_image_phone_3x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right; }
@@ -400,7 +430,10 @@ html, body {
     line-height: 40px; }
 
   .our-story-description {
-    padding: 7% 2% 10% 2%; } }
+    padding: 7% 2% 10% 2%; }
+
+  .sub-description-container {
+    margin-top: -4em; } }
 .office-address-container {
   font-size: 1.5rem; }
 
@@ -418,16 +451,22 @@ html, body {
     background-position: top right; }
 
   .mms-advantages-header {
-    width: 24%; }
+    width: 28%; }
 
   .how-it-works-header {
-    width: 18%; }
+    width: 19%; }
 
   .our-story-header {
     width: 20%; }
 
   .our-team-header {
-    width: 26%; } }
+    width: 26%; }
+
+  .diagram-container {
+    margin-right: 15px;
+    margin-left: 15px; }
+    .diagram-container img {
+      height: 13em !important; } }
 .carousel-container {
   text-align: center; }
   .carousel-container #mms-advantages-carousel, .carousel-container #mms-advantages-second-carousel, .carousel-container #how-it-works-carousel {
@@ -476,7 +515,7 @@ html, body {
 .carousel-text {
   font-size: 2rem;
   text-align: center;
-  font-family: CallunaSans !important; }
+  font-family: MuseoSans, sans-serif !important; }
 
 .mms-advantages-carousel-body-container, .mms-advantages-second-carousel-body-container {
   text-align: center;
@@ -509,7 +548,7 @@ html, body {
   margin-top: 20px; }
 
 #mms-advantages-carousel .carousel-indicators {
-  left: 70%; }
+  left: 67% !important; }
 
 #mms-advantages-second-carousel .carousel-indicators {
   left: 58% !important;
@@ -526,7 +565,7 @@ html, body {
 #how_it_works .carousel-container {
   margin-top: 50px; }
 #how_it_works .carousel-indicators {
-  left: 60% !important; }
+  left: 63% !important; }
 #how_it_works .hide-how-it-works-carousel {
   padding: 10px 50px; }
 
