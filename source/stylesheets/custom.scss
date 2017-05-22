@@ -6,12 +6,12 @@ $borderColor: #BCCEE4;
 $fontDefault: MuseoSans, sans-serif;
 $containerGrayBackground: #E8F4F6;
 $brandColor: #2B68B2;
-$callunaFont: CallunaSans;
 $minionFont: MinionPro;
 $size: 100px;
 
 html, body{
   font-size: 11px;
+  font-family: $fontDefault !important;
 }
 @media screen and (min-width: 500px) and (max-width: 768px){
   html, body{
@@ -57,7 +57,13 @@ html, body{
 }
 
 .minion-pro {
-  font-family: $minionFont !important;
+  font-family: $fontDefault !important;
+}
+.font-wt-100{
+  font-weight: 100;
+}
+.minion-pro-regular {
+  font-weight: 300;
 }
 .minion-pro-regular {
   font-weight: 300;
@@ -73,8 +79,8 @@ html, body{
 }
 
 
-.calluna-sans {
-  font-family: $callunaFont !important;
+.calluna-sans{
+  font-family: $fontDefault !important;
 }
 .calluna-sans-light {
   font-weight: 100;
@@ -112,7 +118,7 @@ html, body{
 .navbar-nav > li > a {
   padding-top: 45px;
   padding-bottom: 35px;
-  font-family: $callunaFont;
+  font-family: $fontDefault;
 }
 
 .nav-bar-component {
@@ -177,7 +183,7 @@ html, body{
 }
 
 .background-description {
-  padding: 50px 100px 50px 100px;
+  padding: 40px 100px 40px 100px;
   width: 66%;
   font-size: 3rem;
   line-height: 4rem;
@@ -242,6 +248,7 @@ html, body{
   border-bottom: 1px solid #BCCEE4;
   background: #3DC0C6;
   color: #FFFFFF;
+  font-weight: 300;
 }
 
 .section-header {
@@ -249,8 +256,8 @@ html, body{
   padding-top: 7rem;
   padding-bottom: 2rem;
   font-size: 2.5rem;
-  font-family: MinionPro;
-  font-weight: 900;
+  font-family: $fontDefault;
+  font-weight: 700;
   margin: auto;
   border-bottom: 0.2rem dashed #3DC0C6;
 }
@@ -260,7 +267,7 @@ html, body{
 }
 
 .mms-advantages-header {
-  width: 22%;
+  width: 25%;
 }
 
 .our-story-header {
@@ -273,14 +280,41 @@ html, body{
 
 .diagram-container {
   margin-top: 4rem;
-}
+  .how-it-works-image{
+    width: 19.7%;
+    display: inline-block;
+    text-align: center;
+    vertical-align: text-top;
+    img{
+      height: 15em;
+    }
+    .how-it-works-text{
+      font-size: 1.3rem;
+      padding: 15px 20px 15px 20px;
+      font-family:  $fontDefault;
+    }
+    .how-it-works-number{
+      margin-top: 15px;
+      font-size: 14px;
+      span{
+        padding: 5px 10px;
+        border: 1px #3DC0C6 solid;
+        border-radius: 50px;
+        background: #3DC0C6;
+        color: white;
+        font-weight: 400;
+      }
+      }
+    }
+  }
+
 
 .section-sub-header {
   color: $bluishFontColor;
   padding-bottom: 3rem;
   padding-top: 4rem;
   font-size: 2.5rem;
-  font-family: MinionPro;
+  font-family: $fontDefault;
 }
 
 .mms-advantages-main-container {
@@ -355,7 +389,7 @@ html, body{
   padding: 2% 2% 5% 2%;
   font-size: 2rem;
   font-weight: 300;
-  line-height: 2.5rem;
+  line-height: 3rem;
 }
 
 
@@ -364,7 +398,7 @@ html, body{
   padding-bottom: 3rem;
   padding-top: 4rem;
   font-size: 2.5rem;
-  font-family: MinionPro;
+  font-family: $fontDefault;
 }
 
 .team-member-container {
@@ -396,7 +430,7 @@ html, body{
 
 .mms-second-row, .our-team-second-row {
   width: 80%;
-  margin: auto;
+  margin: auto !important;
 }
 
 .padding-top-3 {
@@ -465,13 +499,15 @@ html, body{
     width: 100%;
     font-size: 3rem;
     line-height: 4rem;
+    margin-bottom: 18em;
   }
 
   .first-section {
-    background: url(../images/hero_image_phone_3x.png);
+    background: url(../images/Hero_image_phone_3x.png);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: right;
+
   }
   .mms-advantages-header {
     width: 50%;
@@ -504,6 +540,9 @@ html, body{
   .our-story-description {
     padding: 7% 2% 10% 2%;
   }
+  .sub-description-container{
+    margin-top: -4em;
+  }
 }
 .office-address-container{
   font-size: 1.5rem;
@@ -523,16 +562,23 @@ html, body{
     background-position: top right;
   }
   .mms-advantages-header {
-    width: 24%;
+    width: 28%;
   }
   .how-it-works-header {
-    width: 18%;
+    width: 19%;
   }
   .our-story-header {
     width: 20%;
   }
   .our-team-header {
     width: 26%;
+  }
+  .diagram-container {
+    margin-right: 15px;
+    margin-left: 15px;
+      img{
+        height: 13em !important;
+      }
   }
 }
 .carousel-container{
@@ -598,7 +644,7 @@ html, body{
 .carousel-text{
   font-size: 2rem;
   text-align: center;
-  font-family: CallunaSans !important;
+  font-family: $fontDefault !important;
 }
 .mms-advantages-carousel-body-container,.mms-advantages-second-carousel-body-container{
   text-align: center;
@@ -638,7 +684,7 @@ html, body{
 }
 #mms-advantages-carousel{
   .carousel-indicators {
-    left: 70%;
+    left: 67% !important;
   }
 }
 #mms-advantages-second-carousel{
@@ -662,7 +708,7 @@ html, body{
 
   }
   .carousel-indicators{
-    left: 60% !important;
+    left: 63% !important;
   }
   .hide-how-it-works-carousel{
     padding: 10px 50px;
